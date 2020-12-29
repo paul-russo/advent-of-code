@@ -1,4 +1,4 @@
-import sequtils, algorithm, math, strformat, sets
+import strformat, sets
 
 proc getGroups(): seq[HashSet[char]] =
   let input = open("input.txt")
